@@ -2,7 +2,7 @@
 
 body {
     background-color: grey
-
+    
 } 
 .grid {
     display: flex;
@@ -15,28 +15,26 @@ body {
 
 @media screen and (max-width: 500px) {
     .main {
-        padding: 10px 10px 40px 40px;
-       
-       border: 10px  blue solid;
-    }
-    
-    
-    
+        margin: 10px;
+        padding: 10px;
+        border: 10px  blue solid;
+        }
     .grid {
-       
+        margin: 0px;
         text-align: center;
-        
-        
-        
         display: flex;
         flex-wrap: wrap;
         height: 500px;
         width: 300px;
     } 
     h1,h2{
+        
         text-align: center;
         color: white ;
-
-    }
+}
+.header {
+    margin: 0px;
+    padding: 0px;
+}
 
 }
