@@ -1,0 +1,42 @@
+
+
+body {
+    background-color: grey
+
+} 
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 300px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .main {
+        padding: 10px 10px 40px 40px;
+       
+       border: 10px  blue solid;
+    }
+    
+    
+    
+    .grid {
+       
+        text-align: center;
+        
+        
+        
+        display: flex;
+        flex-wrap: wrap;
+        height: 500px;
+        width: 300px;
+    } 
+    h1,h2{
+        text-align: center;
+        color: white ;
+
+    }
+
+}
